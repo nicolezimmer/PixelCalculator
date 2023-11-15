@@ -1,11 +1,20 @@
 import { StyleSheet } from "react-native";
 import { myColors } from "./colores"; 
 export const Styles = StyleSheet.create({
+    fuente: {
+        fontFamily: 'pixelmix',
+      },
+      imageBackground: {
+        flex: 1,
+        width: '100%',
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
     btnVerde: {
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.verde,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -14,7 +23,6 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.oscuroBoton,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -23,7 +31,6 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.blanco,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -32,7 +39,6 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.grisBoton,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -49,6 +55,7 @@ export const Styles = StyleSheet.create({
     row: {
         maxWidth: '100%',
         flexDirection: "row",
+        justifyContent: "space-between"
     },
     viewBottom: {
         // position: 'absolute',
@@ -65,6 +72,7 @@ export const Styles = StyleSheet.create({
         color: myColors.gris,
         fontWeight: '200',
         alignSelf: "flex-end",
+
     },
 
 

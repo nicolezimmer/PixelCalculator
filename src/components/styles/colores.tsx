@@ -1,7 +1,7 @@
 export const myColors ={
     claro: '#F1F2F3',
     oscuro: '#17171C',
-    verde: '#00FF00',
+    verde: '#ababab',
     grisBoton: '#4E505F',
     oscuroBoton: '#2E2F38',
     gris: '#747477',
